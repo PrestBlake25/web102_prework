@@ -3,7 +3,6 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
-    scroll-behavior: smoooth;
 }
 
 #tentacles {
@@ -89,7 +88,6 @@ button:hover{
 .navbar ul{
     list-style-type: none;
     color: black;
-    transition: opacity 0.3s;
 }
 .navbar a{
     text-decoration: none;
