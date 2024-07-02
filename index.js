@@ -178,7 +178,6 @@ const message = `An amount of $${totalDonations.toLocaleString()} has been raise
 ${GAMES_JSON.length} games. Currently, ${totalNumOfUnFundedGames.toLocaleString() == 1 ? "1 game remains unfunded."
     : `${totalNumOfUnFundedGames} games remain unfunded.`} We need your help to fund these amazing games!`;
 
-console.log(message);
 // create a new DOM element containing the template string and append it to the description container
 const messageCard = document.createElement('p');
 messageCard.innerHTML = message;
@@ -194,8 +193,6 @@ const secondGameContainer = document.getElementById("second-game");
 const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
 });
-
-console.log(sortedGames);
 
 // use destructuring and the spread operator to grab the first and second games
 let [topfunded, scdTopfunded, ...otherGames] = sortedGames;

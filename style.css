@@ -3,15 +3,21 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    scroll-behavior: smoooth;
 }
 
 #tentacles {
     width: 50px;
 }
-
+#headerlogo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
 .header {
     display: flex;
     background-color: lightblue;
+    justify-content: space-between;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -75,4 +81,21 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    border-width: thick;
+}
+button:hover{
+    background-color:lightblue;
+}
+.navbar ul{
+    list-style-type: none;
+    color: black;
+    transition: opacity 0.3s;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.navbar a:hover{
+    color: blue;
 }
