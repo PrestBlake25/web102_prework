@@ -24,12 +24,12 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='CrowdFundraisingAnimation.gif' title='Video Walkthrough' width='600' height= "200" alt='Video Walkthrough' />
+<img src='CrowdFundraisingAnimation2.gif' title='Video Walkthrough' width='600' height= "200" alt='Video Walkthrough' />
 
 
 ## Notes
 
-Some challenges were learning new DOM functions I never used before such as reduce() and filter()
+Some challenges of buliding this website were learning new DOM functions I never used before such as reduce() and filter()
 
 ## License
 
