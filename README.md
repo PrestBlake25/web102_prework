@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='CrowdFoundingSite.gif' title='Video Walkthrough' width='1352' height= "616" alt='Video Walkthrough' />
+<img src='CrowdFundingWebsite2.gif' title='Video Walkthrough' width='1352' height= "616" alt='Video Walkthrough' />
 
 
 ## Notes
