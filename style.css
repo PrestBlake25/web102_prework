@@ -8,15 +8,32 @@ body {
 #tentacles {
     width: 50px;
 }
+.stats-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #4fcdb7;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+}
+#footer{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fcdb7;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-top: 10px;
 }
 
 .stats-container {
